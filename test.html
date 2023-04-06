@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Heatmap</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        .cell {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="heatmap"></div>
+<input style="width: 100%" type="text" value="this is our giant sample with loads of samples spread among it (the full html page)" id="largeText">
+<input style="width: 100%" type="text" value="the sample" id="sample">
+    <script src="heatmap.js"></script>
+</body>
+</html>
